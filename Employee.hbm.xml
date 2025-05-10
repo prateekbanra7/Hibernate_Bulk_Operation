@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="in.abc.Model.Employee" table="employee">
+	  <id name="eno" type="java.lang.Integer" column="eno">
+	  	<generator class="identity"/>
+	  </id>
+      <property name="ename" type="java.lang.String" length="20" column="ename" />
+	  <property name="esalary" type="java.lang.Integer" column="esalary" />
+	  <property name="eaddr" type="java.lang.String" column="eaddr" length='20' />
+	 </class>
+</hibernate-mapping>
+     
